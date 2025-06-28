@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Présentation - Effet Glass</title>
+    <style>
+        body {
+            min-height: 100vh;
+            margin: 0;
+            padding: 0;
+            background: url('https://cdn.mgig.fr/2021/10/mg-ce4187e7-w4096.jpg') no-repeat center center fixed;
+            background-size: cover;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-family: 'Segoe UI', Arial, sans-serif;
+        }
+        .glass-box {
+            background: rgba(255, 255, 255, 0.15);
+            border-radius: 20px;
+            box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+            backdrop-filter: blur(10px);
+            -webkit-backdrop-filter: blur(10px);
+            border: 1px solid rgba(255, 255, 255, 0.18);
+            padding: 40px 60px;
+            max-width: 450px;
+            width: 100%;
+            color: #fff;
+            min-height: 600px;
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-start;
+        }
+        .glass-box h1 {
+            text-align: center;
+            margin-top: 0;
+            margin-bottom: 30px;
+            font-size: 2.3em;
+            letter-spacing: 3px;
+            font-weight: 900;
+            text-shadow: 0 2px 12px #0008;
+            color: #aeeaff;
+            text-transform: uppercase;
+        }
+        .glass-box h2 {
+            margin-top: 25px;
+            margin-bottom: 10px;
+            font-size: 1.1em;
+            letter-spacing: 2px;
+            border-bottom: 1px solid rgba(255,255,255,0.2);
+            padding-bottom: 4px;
+            color: #aeeaff;
+            text-transform: uppercase;
+        }
+        .glass-box .value {
+            font-size: 1.3em;
+            font-weight: bold;
+            color: #fff;
+            margin-bottom: 18px;
+            text-shadow: 0 1px 8px #0007;
+            letter-spacing: 1px;
+        }
+        .social-links {
+            display: flex;
+            justify-content: center;
+            gap: 22px;
+            margin-top: 10px;
+        }
+        .social-links a {
+            color: #fff;
+            text-decoration: none;
+            font-size: 2em;
+            transition: color 0.2s, background 0.2s, transform 0.2s;
+            background: rgba(0,0,0,0.18);
+            padding: 10px 16px;
+            border-radius: 12px;
+            box-shadow: 0 2px 8px #0003;
+        }
+        .social-links a:hover {
+            color: #00bfff;
+            background: rgba(0,0,0,0.35);
+            transform: translateY(-3px) scale(1.08);
+        }
+    </style>
+    <!-- Icônes Font Awesome CDN -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+</head>
+<body>
+    <div class="glass-box">
+        <h1>Victira_ytb</h1>
+        <h2>My real name</h2>
+        <div class="value">Raphaël</div>
+
+        <h2>My pseudo</h2>
+        <div class="value">Victira</div>
+
+        <h2>My age</h2>
+        <div class="value">12 years</div>
+
+        <h2>My future job</h2>
+        <div class="value">Développeur Web</div>
+
+        <h2>Mes réseaux</h2>
+        <div class="social-links">
+            <a href="https://github.com/victiraytb" target="_blank" title="GitHub"><i class="fab fa-github"></i></a>
+            <a href="https://x.com/Victira_yt" target="_blank" title="Twitter"><i class="fab fa-twitter"></i></a>
+            <a href="https://www.tiktok.com/@victira_ytb" target="_blank" title="TikTok"><i class="fab fa-tiktok"></i></a>
+            <a href="https://www.youtube.com/@Victira_ytb" target="_blank" title="YouTube"><i class="fab fa-youtube"></i></a>
+            <a href="mailto:victiraytb@gmail.com" title="Email"><i class="fas fa-envelope"></i></a>
+        </div>
+    </div>
+</body>
+</html>
